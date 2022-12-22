@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 mongoose.set('strictQuery', true);
 //mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB", {
+mongoose.connect("mongodb+srv://navinkumar:6bi7GmejGDX4CkB@cluster0.9lesjp9.mongodb.net/todolistDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   }).then(() => {
